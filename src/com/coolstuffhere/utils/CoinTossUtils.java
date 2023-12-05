@@ -45,7 +45,6 @@ public class CoinTossUtils {
     }
 
     private static void switchCoinForPlayer2(Player player1, Player player2) {
-        // Switch the coin side for player 2 based on player 1's choice
         if (player1.getGuess().equalsIgnoreCase("Heads")) {
             player2.setGuess("Tails");
         } else if (player1.getGuess().equalsIgnoreCase("Tails")) {
